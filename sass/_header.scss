@@ -1,0 +1,69 @@
+header {
+    position: relative;
+    background-color: $color1;
+    color: #fff;
+    text-align: center;
+    min-height: 80vh;
+    border-bottom: 4px solid #000;
+    box-shadow: 0 5px 15px rgba(#000, .6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    overflow: hidden;
+    
+    transform: translateY(-7rem);
+    transition: all .4s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    &.reveal {
+        transform: translateX(0);
+    }
+
+    .hamburger {
+        background: none;
+        position: absolute;
+        top: -26px;
+        left: 10px;
+        svg {
+            width: 4rem;
+            height: 4rem;
+        }
+    }
+
+    h1 {
+        font-size: 14vw;
+    }
+    p {
+        font-size: 3rem;
+        letter-spacing: 3px;
+    }
+
+    button {
+        font-size: 3rem;
+        padding: .8rem 2rem;
+        margin-top: 4rem;
+        border: 0;
+        border-radius: 5px;
+        background-color:#000;
+        color: #fff;
+        cursor: pointer;
+    }
+}
+
+
+
+.guitar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 120rem;
+    height: 120rem;
+    fill: 000;
+    filter: blur(8px);
+    opacity: .5;
+    transform: translateX(-30rem);
+
+
+  
+}

@@ -1,0 +1,26 @@
+nav {
+    background-color: rgba($color1, .7);
+    color: #000;
+    font-size: 2.2rem;
+    padding: 1.5rem;
+
+    svg {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        li {
+            a {
+                padding: 0 1rem;
+                text-decoration: none;
+                ;
+            }
+        }
+    }
+}
